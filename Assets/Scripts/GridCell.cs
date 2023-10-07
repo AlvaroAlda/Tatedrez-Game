@@ -1,13 +1,28 @@
 using UnityEngine;
 
-public class GridCell
+public class GridCell: MonoBehaviour
 {
-    public Vector3 Position;
+    public GameObject PossiblePositionHelper;
+    public GameObject LastPositionHelper;
+    public GameObject HoverHelper;
+    
     public BasePieceController GuestPiece;
+    public Color GridColor;
 
-    public GridCell(Vector3 position, BasePieceController guestPiece = null)
+    private void Start()
     {
-        GuestPiece = guestPiece;
-        Position = position;
+        GetComponent<SpriteRenderer>().color = GridColor;
     }
+
+    private void OnMouseEnter()
+    {
+        HoverHelper.SetActive(true);
+    }
+
+
+    private void OnMouseExit()
+    {
+        HoverHelper.SetActive(false);
+    }
+
 }

@@ -3,20 +3,20 @@ using UnityEngine;
 public class CheckBoardController : TateChessMonoBehaviour
 {
     private int _size;
-    public GridCell[,] GridCells;
+    GridCell[,] GridCells;
+    public GridCell GridCellPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
-        UpdateSizeAndPosition();
+        UpdateCheckBoard();
     }
     
-    void UpdateSizeAndPosition()
+    void UpdateCheckBoard()
     {
         _size = GameConfig.Size;
         
         var checkBoardTransform = transform;
-        checkBoardTransform.localScale = Vector3.one * _size;
         checkBoardTransform.localPosition = new Vector3(_size * 0.5f, _size * 0.5f, 1);
         
         GridCells = new GridCell[_size,_size];
@@ -26,7 +26,11 @@ public class CheckBoardController : TateChessMonoBehaviour
             for (var j = 0; j < _size; j++)
             {
                 //Adding the half unit for the center of the piece
-                GridCells[i, j] = new GridCell(new Vector2(i + 0.5f, j + 0.5f));
+                var gridCell = GridCells[i, j] = Instantiate(GridCellPrefab, transform);
+                gridCell.transform.localPosition = new Vector2(i + 0.5f - _size * 0.5f, j + 0.5f - _size * 0.5f);
+
+                var gridColor = (i + j) % 2 == 0 ? GameConfig.ColorEven : GameConfig.ColorOdd;
+                gridCell.GridColor = gridColor;
             }
         }
 

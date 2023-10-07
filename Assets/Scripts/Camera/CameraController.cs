@@ -7,7 +7,7 @@ public class CameraController : TateChessMonoBehaviour
         var mainCamera = Camera.main;
         
         var size = GameConfig.Size;
-        var distanceOffset = mainCamera.GetDistanceFromFrustumWidth(size);
+        var distanceOffset = mainCamera.GetDistanceFromFrustumHeight(size);
 
         if (mainCamera != null) 
             mainCamera.transform.position = new Vector3(size * 0.5f, size * 0.5f, -distanceOffset);

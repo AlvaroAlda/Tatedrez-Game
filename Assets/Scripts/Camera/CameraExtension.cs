@@ -6,4 +6,9 @@ public static class CameraExtension
     {
         return frustumWidth / camera.aspect * 0.5f / Mathf.Tan(camera.fieldOfView * 0.5f * Mathf.Deg2Rad);
     }
+    
+    public static float GetDistanceFromFrustumHeight(this Camera camera, float frustumHeight)
+    {
+        return frustumHeight * 0.5f / Mathf.Tan(camera.fieldOfView * 0.5f * Mathf.Deg2Rad);
+    }
 }
