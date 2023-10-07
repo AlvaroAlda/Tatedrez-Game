@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 4016525479834589193}
   - component: {fileID: 4016525479834589207}
   - component: {fileID: 5059337802150913690}
+  - component: {fileID: 4694939297554752907}
   m_Layer: 5
   m_Name: UiPiece
   m_TagString: Untagged
@@ -137,6 +138,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pieceImage: {fileID: 3858741793666421203}
+--- !u!225 &4694939297554752907
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4016525479834589194}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &5842233512294804194
 GameObject:
   m_ObjectHideFlags: 0

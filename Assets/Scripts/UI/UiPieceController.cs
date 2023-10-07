@@ -4,6 +4,8 @@ using UnityEngine.UI;
 public class UiPieceController : TateChessMonoBehaviour
 {
     [SerializeField] private Image pieceImage;
+    [SerializeField] private CanvasGroup pieceCanvasGroup;
+    
     private PieceData _pieceData;
 
     void UpdateUiPiece(PieceData pieceData)
