@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: GameConfig
   m_EditorClassIdentifier: 
   Size: 3
+  Player1Color: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
+  Player2Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
   ColorEven: {r: 0.9811321, g: 0.9125883, b: 0.66180134, a: 1}
   ColorOdd: {r: 0.5701903, g: 0.6698113, b: 0.20536669, a: 1}

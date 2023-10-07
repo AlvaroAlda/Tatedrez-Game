@@ -6,7 +6,7 @@ public class GridCell: MonoBehaviour
     public GameObject LastPositionHelper;
     public GameObject HoverHelper;
     
-    public BasePieceController GuestPiece;
+    public PieceController GuestPiece;
     public Color GridColor;
 
     private void Start()

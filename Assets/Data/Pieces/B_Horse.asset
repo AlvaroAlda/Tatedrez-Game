@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9089b89bf2c4298adeea84b796e6f3c, type: 3}
-  m_Name: Rook
+  m_Name: B_Horse
   m_EditorClassIdentifier: 
+  Player1: 0
   PieceId: 1
-  PieceSprite: {fileID: 336271744, guid: 85803a06804619d4083b31337f15ede3, type: 3}
+  PieceSprite: {fileID: 773192439, guid: 85803a06804619d4083b31337f15ede3, type: 3}
