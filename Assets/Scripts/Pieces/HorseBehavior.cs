@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HorseBehavior : MonoBehaviour, IPieceHandler
 {
-    public GridCell[,] GetPossibleGrids(GridCell[,] gridCells)
+    public GridCell[,] GetPossibleGridCells(GridCell[,] gridCells)
     {
         return null;
     }

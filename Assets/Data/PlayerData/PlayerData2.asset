@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerName: Josefa
   PlayerId: 1
-  PieceColor: {r: 1, g: 1, b: 1, a: 1}
+  Pieces:
+  - {fileID: 11400000, guid: 53f946b2df6864441bd686c69edc27aa, type: 2}
+  - {fileID: 11400000, guid: d414da1520239174697a5d7c51206082, type: 2}
+  - {fileID: 11400000, guid: 1b51a913fedb5744285a6e4b55a1fbdd, type: 2}

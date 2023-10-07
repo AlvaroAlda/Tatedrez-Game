@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Size: 3
   Players:
-  - {fileID: 11400000, guid: aad9b741974be6c48ae597bc5f2af12b, type: 2}
   - {fileID: 11400000, guid: 2b8892157f8e1e944a70d1daa42de034, type: 2}
+  - {fileID: 11400000, guid: aad9b741974be6c48ae597bc5f2af12b, type: 2}
   ColorEven: {r: 0.9811321, g: 0.9125883, b: 0.66180134, a: 1}
   ColorOdd: {r: 0.5701903, g: 0.6698113, b: 0.20536669, a: 1}

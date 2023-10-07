@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerName: Fede
   PlayerId: 0
-  PieceColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+  Pieces:
+  - {fileID: 11400000, guid: 6c6333a4b3c1f3c41ac0e00758697fb9, type: 2}
+  - {fileID: 11400000, guid: aca0870e7652bb54b97e9268edf44e02, type: 2}
+  - {fileID: 11400000, guid: 99abf2e4a3296804b8ca8560bc691a55, type: 2}
