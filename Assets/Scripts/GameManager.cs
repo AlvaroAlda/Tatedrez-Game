@@ -6,8 +6,7 @@ public class GameManager: MonoBehaviour
     private const string ConfigName = "GameConfig";
     
     private GameConfig _gameConfig;
-    public GameConfig GameConfig => 
-        _gameConfig != null ? _gameConfig : Resources.Load<GameConfig>(ConfigName);
+    public GameConfig GameConfig => _gameConfig != null ? _gameConfig : Resources.Load<GameConfig>(ConfigName);
 
     public bool IsDynamicGameModeEnabled;
     
@@ -30,6 +29,8 @@ public class GameManager: MonoBehaviour
         _gameConfig = Resources.Load<GameConfig>(ConfigName);
         IsDynamicGameModeEnabled = false;
     }
+    
+    public GridCell[,] GridCells;
 
     public void SwitchPlayer()
     {

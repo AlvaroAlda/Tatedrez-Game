@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5188219114735439225, guid: 68ac5cb2682b62b4aafc64c331185f17, type: 3}
       propertyPath: pieceId
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6728932193613009436, guid: 68ac5cb2682b62b4aafc64c331185f17, type: 3}
       propertyPath: m_Sprite
@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 1428067, guid: 85803a06804619d4083b31337f15ede3, type: 3}
     - target: {fileID: 8132937412910092027, guid: 68ac5cb2682b62b4aafc64c331185f17, type: 3}
       propertyPath: m_Name
-      value: HorsePiece
+      value: RookPiece
       objectReference: {fileID: 0}
     - target: {fileID: 8303051838767963811, guid: 68ac5cb2682b62b4aafc64c331185f17, type: 3}
       propertyPath: m_RootOrder
@@ -66,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 8561970632207689882, guid: 68ac5cb2682b62b4aafc64c331185f17, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1428067, guid: 85803a06804619d4083b31337f15ede3, type: 3}
+      objectReference: {fileID: 336271744, guid: 85803a06804619d4083b31337f15ede3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68ac5cb2682b62b4aafc64c331185f17, type: 3}
 --- !u!1 &6347306390076769117 stripped
@@ -74,7 +74,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8132937412910092027, guid: 68ac5cb2682b62b4aafc64c331185f17, type: 3}
   m_PrefabInstance: {fileID: 2939679529039973798}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2644090828096867789
+--- !u!114 &5799343094327743715
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,6 +83,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6347306390076769117}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a30b4e87ca423f4da3ac8bcc109ed49, type: 3}
+  m_Script: {fileID: 11500000, guid: bca6142d8b2b6f04eab1f1888a6b1bdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

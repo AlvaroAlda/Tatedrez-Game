@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9089b89bf2c4298adeea84b796e6f3c, type: 3}
   m_Name: W_Bishop
   m_EditorClassIdentifier: 
-  Player1: 1
-  PieceId: 1
+  PieceId: 2
   PieceSprite: {fileID: 1706347331, guid: 85803a06804619d4083b31337f15ede3, type: 3}
+  PieceController: {fileID: 0}

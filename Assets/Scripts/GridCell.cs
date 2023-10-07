@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GridCell: MonoBehaviour
@@ -18,11 +19,10 @@ public class GridCell: MonoBehaviour
     {
         HoverHelper.SetActive(true);
     }
-
-
+    
     private void OnMouseExit()
     {
         HoverHelper.SetActive(false);
     }
-
+    
 }

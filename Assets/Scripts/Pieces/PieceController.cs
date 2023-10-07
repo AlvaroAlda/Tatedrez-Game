@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PieceController : TateChessMonoBehaviour
 {
+    [SerializeField] private PieceId pieceId;
     private IPieceHandler _pieceHandler;
     
     // Start is called before the first frame update

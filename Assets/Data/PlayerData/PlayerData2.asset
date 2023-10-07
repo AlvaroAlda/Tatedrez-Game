@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9089b89bf2c4298adeea84b796e6f3c, type: 3}
-  m_Name: W_Horse
+  m_Script: {fileID: 11500000, guid: 741138acf4174ac4ab2fb3296b3a3e3d, type: 3}
+  m_Name: PlayerData2
   m_EditorClassIdentifier: 
-  Player1: 1
-  PieceId: 1
-  PieceSprite: {fileID: 1428067, guid: 85803a06804619d4083b31337f15ede3, type: 3}
+  PlayerName: Josefa
+  PlayerId: 1
+  PieceColor: {r: 1, g: 1, b: 1, a: 1}

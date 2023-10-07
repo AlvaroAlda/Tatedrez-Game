@@ -34,7 +34,7 @@ public class CheckBoardController : TateChessMonoBehaviour
             }
         }
 
-        //Publishing gridCells to the shared game config
-        GameConfig.GridCells = GridCells;
+        //Publishing gridCells to the shared manager
+        Manager.GridCells = GridCells;
     }
 }
